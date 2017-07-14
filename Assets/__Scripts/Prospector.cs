@@ -22,11 +22,11 @@ public class Prospector : MonoBehaviour
     public Vector3 fsPosRun = new Vector3(0.5f, 0.75f, 0);
     public Vector3 fsPosMid2 = new Vector3(0.5f, 0.5f, 0);
     public Vector3 fsPosEnd = new Vector3(1.0f, 0.65f, 0);
-
+    public Layout layout;
     public Deck deck;
     public TextAsset deckXML;
 
-    public Layout layout;
+    
     public TextAsset layoutXML;
     public Vector3 layoutCenter;
     public float xOffset = 3;
